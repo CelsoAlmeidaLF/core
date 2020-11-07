@@ -1,0 +1,12 @@
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\bin\Debug\netstandard2.0\DAO.deps.json
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\bin\Debug\netstandard2.0\DAO.dll
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\bin\Debug\netstandard2.0\DAO.pdb
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\bin\Debug\netstandard2.0\ENT.dll
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\bin\Debug\netstandard2.0\ENT.pdb
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.csprojAssemblyReference.cache
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.csproj.CoreCompileInputs.cache
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfoInputs.cache
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.AssemblyInfo.cs
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.csproj.CopyComplete
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.dll
+C:\Users\Celso\Desktop\WEB\WEBAPP01\DAO\obj\Debug\netstandard2.0\DAO.pdb
