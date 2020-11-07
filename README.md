@@ -1,2 +1,1 @@
-# core
-Asp.Net Core my CRUD
+# My Project ASP.NET Core (CRUD)
