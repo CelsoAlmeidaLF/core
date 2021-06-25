@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj": {}
+    "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\DAL.csproj": {
+    "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Celso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\obj\\",
+        "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\celso\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Celso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\celso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -30,9 +32,10 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj"
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
               }
             }
           }
@@ -45,6 +48,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.Data.SqlClient": {
               "target": "Package",
@@ -71,35 +75,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj": {
-      "version": "1.0.0",
+    "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj",
+        "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj",
         "projectName": "ENT",
-        "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj"
+        "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj": {
+    "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj",
+        "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj",
         "projectName": "WEBAPP01",
-        "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj",
-        "packagesPath": "C:\\Users\\Celso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\WEBAPP01\\obj\\",
+        "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEBAPP01.csproj",
+        "packagesPath": "C:\\Users\\celso\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Celso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\celso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,12 +117,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\DAL\\DAL.csproj"
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj"
               },
-              "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj": {
-                "projectPath": "C:\\Users\\Celso\\Desktop\\WEB\\WEBAPP01\\ENT\\ENT.csproj"
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
               }
             }
           }
@@ -130,6 +136,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -140,6 +147,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.15, 3.1.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -148,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
         }
       }
     }

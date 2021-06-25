@@ -4,3 +4,9 @@ C:\Users\Celso\Desktop\WEB\WEBAPP01\ENT\obj\Debug\ENT.csprojAssemblyReference.ca
 C:\Users\Celso\Desktop\WEB\WEBAPP01\ENT\obj\Debug\ENT.csproj.CoreCompileInputs.cache
 C:\Users\Celso\Desktop\WEB\WEBAPP01\ENT\obj\Debug\ENT.dll
 C:\Users\Celso\Desktop\WEB\WEBAPP01\ENT\obj\Debug\ENT.pdb
+D:\Development\gitHub\core\WEBAPP01\ENT\bin\Debug\ENT.dll
+D:\Development\gitHub\core\WEBAPP01\ENT\bin\Debug\ENT.pdb
+D:\Development\gitHub\core\WEBAPP01\ENT\obj\Debug\ENT.csproj.AssemblyReference.cache
+D:\Development\gitHub\core\WEBAPP01\ENT\obj\Debug\ENT.csproj.CoreCompileInputs.cache
+D:\Development\gitHub\core\WEBAPP01\ENT\obj\Debug\ENT.dll
+D:\Development\gitHub\core\WEBAPP01\ENT\obj\Debug\ENT.pdb

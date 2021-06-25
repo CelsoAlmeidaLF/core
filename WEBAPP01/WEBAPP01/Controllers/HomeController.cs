@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DAL;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using WEBAPP01.Models;
-using DAL;
-using ENT;
 
 namespace WEBAPP01.Controllers
 {

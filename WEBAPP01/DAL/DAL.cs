@@ -7,11 +7,12 @@ namespace DAL
     public class DAL
     {
         private static SqlConnection conn;
-        private static string conString;
+        private string conString;
 
         public DAL()
         {
-            conString = $@"Data Source=CELSO-PC; Initial Catalog=DBSYSTEKNA; Persist Security Info=True; User ID=ADMIN_CELSO; Password=35316Ji@852";
+            conString = $@"Data Source=; Initial Catalog=; Persist Security Info=True; User ID=; Password=";
+            conString = $@"Data Source=; Initial Catalog=; Persist Security Info=True; User ID=; Password=";
             conn = new SqlConnection(conString);
         }
 

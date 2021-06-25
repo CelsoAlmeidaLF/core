@@ -17,12 +17,13 @@ namespace DAL
             eFuncionarios item;
             var func = new List<eFuncionarios>();
 
-            string cmmd = "SELECT * FROM TB_FUNCIONARIOS";
+            string cmmd = "SELECT ...";
             var conn = new DAL();
 
             try
             {
                 DataTable dt = DAL.dtaGet(cmmd);
+
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     item = new eFuncionarios()
@@ -35,14 +36,17 @@ namespace DAL
                     };
                     func.Add(item);
                 }
+
                 _funcionarios = func;
                 return _funcionarios;
             }
-            catch (SqlException e)
+            catch (SqlException sqlex)
             {
-                var er = e;
-                conn.Close();
-                return null;
+                throw sqlex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
             finally
             {
@@ -53,16 +57,20 @@ namespace DAL
         public void InsertFuncionarios(eFuncionarios func)
         {
 
-            string cmmd = $"INSERT INTO TB_FUNCIONARIOS VALUES ('{func.eNome}', '{func.eDepto}', '{func.eFuncao}', {func.eSalario});";
+            string cmmd = $"INSERT INTO ...";
             var conn = new DAL();
 
             try
             {
                 conn.Set(cmmd);
             }
-            catch (SqlException e)
+            catch (SqlException sqlex)
             {
-                var er = e; conn.Close();
+                throw sqlex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
             finally
             {
@@ -72,16 +80,20 @@ namespace DAL
 
         public void UpdateFuncionarios(eFuncionarios func)
         {
-            string cmmd = $"UPDATE TB_FUNCIONARIOS SET ('{func.eNome}', '{func.eDepto}', '{func.eFuncao}', {func.eSalario}) WHERE IDFUNC = {func.eIdFunc};";
+            string cmmd = $"UPDATE ...";
             var conn = new DAL();
 
             try
             {
                 conn.Set(cmmd);
             }
-            catch (SqlException e)
+            catch (SqlException sqlex)
             {
-                var er = e; conn.Close();
+                throw sqlex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
             finally
             {
@@ -91,16 +103,20 @@ namespace DAL
 
         public void DeleteFuncionarios(eFuncionarios func)
         {
-            string cmmd = $"DELETE FROM TB_FUNCIONARIOS WHERE IDFUNC = {func.eIdFunc}";
+            string cmmd = $"DELETE ...";
             var conn = new DAL();
 
             try
             {
                 conn.Set(cmmd);
             }
-            catch (SqlException e)
+            catch (SqlException sqlex)
             {
-                var er = e; conn.Close();
+                throw sqlex;
+            }
+            catch (Exception ex)
+            {
+                throw ex;   
             }
             finally
             {
