@@ -11,6 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DAL\DAL.csproj", "{A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEG", "NEG\NEG\NEG.csproj", "{0A6CB7D2-30AA-4DAF-9106-F529D688CC42}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptsSql", "ScriptsSql", "{18AD56EB-7DA4-4EBF-924A-33CBEF69196D}"
+	ProjectSection(SolutionItems) = preProject
+		DDL_CREATE__TABLE.sql = DDL_CREATE__TABLE.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NEG;
 using DAL;
-using ENT;
 
 namespace WEBAPP01
 {
@@ -26,7 +26,7 @@ namespace WEBAPP01
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddScoped<IFuncionarios, dFuncionarios>();
+            services.AddScoped<IFuncionarios, nFuncionarios>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

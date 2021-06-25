@@ -1273,6 +1273,19 @@
         "runtime": {
           "bin/placeholder/ENT.dll": {}
         }
+      },
+      "NEG/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "ENT": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NEG.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NEG.dll": {}
+        }
       }
     }
   },
@@ -5127,12 +5140,18 @@
       "type": "project",
       "path": "../ENT/ENT.csproj",
       "msbuildProject": "../ENT/ENT.csproj"
+    },
+    "NEG/1.0.0": {
+      "type": "project",
+      "path": "../NEG/NEG/NEG.csproj",
+      "msbuildProject": "../NEG/NEG/NEG.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DAL >= 1.0.0",
-      "ENT >= 1.0.0"
+      "ENT >= 1.0.0",
+      "NEG >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5143,9 +5162,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\Web.csproj",
-      "projectName": "Web",
-      "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\Web.csproj",
+      "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEB.csproj",
+      "projectName": "WEB",
+      "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEB.csproj",
       "packagesPath": "C:\\Users\\celso\\.nuget\\packages\\",
       "outputPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\obj\\",
       "projectStyle": "PackageReference",
@@ -5175,6 +5194,9 @@
             },
             "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
               "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
+            },
+            "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj": {
+              "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj"
             }
           }
         }

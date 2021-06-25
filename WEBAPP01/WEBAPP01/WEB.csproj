@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\ENT\ENT.csproj" />
+    <ProjectReference Include="..\NEG\NEG\NEG.csproj" />
   </ItemGroup>
 
 </Project>

@@ -89,6 +89,28 @@
         "net472": {}
       }
     },
+    "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj",
+        "projectName": "NEG",
+        "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\DAL\\DAL.csproj"
+              },
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\Development\\gitHub\\core\\WEBAPP01\\WEBAPP01\\WEB.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -124,6 +146,9 @@
               },
               "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj": {
                 "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\ENT\\ENT.csproj"
+              },
+              "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj": {
+                "projectPath": "D:\\Development\\gitHub\\core\\WEBAPP01\\NEG\\NEG\\NEG.csproj"
               }
             }
           }
