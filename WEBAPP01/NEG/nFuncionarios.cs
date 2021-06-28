@@ -8,26 +8,26 @@ namespace NEG
     {
         public void DeleteFuncionarios(eFuncionarios funcionarios)
         {
-            dFuncionarios dao = new dFuncionarios();
-            dao.DeleteFuncionarios(funcionarios);
+            var f = new dFuncionarios();
+            f.DeleteFuncionarios(funcionarios);
         }
 
         public IEnumerable<eFuncionarios> GetFuncionarios()
         {
-            dFuncionarios dao = new dFuncionarios();
-            return dao.GetFuncionarios();
+            var f = new dFuncionarios();
+            return f.GetFuncionarios();
         }
 
         public void InsertFuncionarios(eFuncionarios funcionarios)
         {
-            dFuncionarios dao = new dFuncionarios();
-            dao.InsertFuncionarios(funcionarios);
+            var f = new dFuncionarios();
+            f.InsertFuncionarios(funcionarios);
         }
 
         public void UpdateFuncionarios(eFuncionarios funcionarios)
         {
-            dFuncionarios dao = new dFuncionarios();
-            dao.UpdateFuncionarios(funcionarios);
+            var f = new dFuncionarios();
+            f.UpdateFuncionarios(funcionarios);
         }
     }
 }
